@@ -1,0 +1,6 @@
+Dependencies for Project 'titila led for', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x50874B2E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x51478980)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x5087359E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9FC00)
+F (.\lpc214x.h)(0x503664BE)()

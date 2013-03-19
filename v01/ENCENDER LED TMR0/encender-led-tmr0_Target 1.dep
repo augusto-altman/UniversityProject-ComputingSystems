@@ -1,0 +1,6 @@
+Dependencies for Project 'encender-led-tmr0', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x509E8361)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x513F6BB1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x5087359E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9FC00)
+F (..\rodri\tp final\lpc214x.h)(0x00000000)()

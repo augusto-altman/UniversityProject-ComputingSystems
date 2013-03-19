@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "retarget.o" "main.o" "serial.o" 
+--strict --scatter "prueba uart.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\prueba uart.map" -o "prueba uart.axf"

@@ -1,0 +1,6 @@
+tito: el archivo q tenes  q leer es "JUGAR CON TITO".
+
+
+en "JUGAR CON TITO" esta el proyecto para uvision para jugar en 1 placa 
+en "JUGAR CON TITO WLAN" esta el proyecto para jugar en 2 placas, 
+el resto son pruebas q su nombre lo indica
