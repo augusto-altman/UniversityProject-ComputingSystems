@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "titila todos los leds placa.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\titila todos los leds placa.map" -o "titila todos los leds placa.axf"

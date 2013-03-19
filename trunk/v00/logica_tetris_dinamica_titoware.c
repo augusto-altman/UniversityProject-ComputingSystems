@@ -8,19 +8,18 @@ typedef struct
     int id;
 } jugador;
 
-void show_tabla(int**);
-int movimiento(jugador*,int,int,int**);
+void show_tabla(int*);
+int movimiento(jugador*,int,int,int*[3]);
 
 int main()
 {
-    int i, j, **tabla;
+    int i, j, tabla[3][3];
     jugador p1, p2;
     p1.cont = p2.cont = 3; p1.id = 1; p2.id = 2;
 
-    tabla = (int**) malloc(sizeof(int*) * 3);
+
     for(i=0; i<3; i++)
     {
-        tabla[i] = (int*) malloc(sizeof(int) * 3);
         for(j=0; j<3; j++)
             tabla[i][j] = 0;
     }
@@ -85,7 +84,7 @@ int main()
     }
 }
 
-int movimiento(jugador *p, int codigo, int sustr, int **tabla)
+int movimiento(jugador *p, int codigo, int sustr, int *tabla)
 {
     int fila_m, fila_s, columna_m, columna_s, i, j, win=0;
 
@@ -176,7 +175,7 @@ int movimiento(jugador *p, int codigo, int sustr, int **tabla)
     return win;
 }
 
-void show_tabla(int **tabla) //Quitar esta funcion cuando pasemos el codigo a ARM!!!!!!!
+void show_tabla(int *tabla) //Quitar esta funcion cuando pasemos el codigo a ARM!!!!!!!
 {
     int i, j;
     for(i=0; i<3; i++)

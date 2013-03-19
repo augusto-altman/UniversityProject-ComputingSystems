@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Philips 
+-o "retarget.o" --omf_browse "retarget.crf" --depend "retarget.d" "..\rodri\tp final\Retarget.c"

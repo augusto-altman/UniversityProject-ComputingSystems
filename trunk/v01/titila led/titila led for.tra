@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'titila led for.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "titila led for.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\titila led for.map" -o "titila led for.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'titila led for.axf'
+### ADS-LD Command File: 'titila led for.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'titila led for.lnp', Handle=0x00000904
+### Writing '.lnp' file
+### ADS-LD Command file 'titila led for.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
